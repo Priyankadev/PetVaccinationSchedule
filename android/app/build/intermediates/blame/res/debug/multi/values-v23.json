@@ -11,13 +11,13 @@
                     "endOffset": 185
                 },
                 "from": {
-                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v23/values-v23.xml",
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 290,
+                        "startOffset": 55,
                         "endColumn": 134,
-                        "endOffset": 420
+                        "endOffset": 185
                     }
                 }
             },
@@ -26,17 +26,17 @@
                     "startLine": 3,
                     "startColumn": 4,
                     "startOffset": 190,
-                    "endColumn": 74,
-                    "endOffset": 260
+                    "endColumn": 134,
+                    "endOffset": 320
                 },
                 "from": {
-                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v23/values-v23.xml",
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 655,
-                        "endColumn": 74,
-                        "endOffset": 725
+                        "startOffset": 190,
+                        "endColumn": 134,
+                        "endOffset": 320
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 265,
-                    "endColumn": 86,
-                    "endOffset": 347
+                    "startOffset": 325,
+                    "endColumn": 74,
+                    "endOffset": 395
                 },
                 "from": {
-                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v23/values-v23.xml",
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 730,
-                        "endColumn": 86,
-                        "endOffset": 812
+                        "startOffset": 325,
+                        "endColumn": 74,
+                        "endOffset": 395
                     }
                 }
             },
@@ -63,60 +63,136 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 352,
-                    "endLine": 10,
-                    "endColumn": 12,
-                    "endOffset": 675
+                    "startOffset": 400,
+                    "endColumn": 86,
+                    "endOffset": 482
                 },
                 "from": {
-                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v23/values-v23.xml",
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 817,
-                        "endLine": 14,
-                        "endColumn": 12,
-                        "endOffset": 1140
+                        "startOffset": 400,
+                        "endColumn": 86,
+                        "endOffset": 482
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 680,
-                    "endLine": 16,
+                    "startOffset": 487,
+                    "endLine": 18,
                     "endColumn": 12,
-                    "endOffset": 1015
+                    "endOffset": 1272
                 },
                 "from": {
-                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v23/values-v23.xml",
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 1145,
-                        "endLine": 20,
+                        "startOffset": 487,
+                        "endLine": 18,
                         "endColumn": 12,
-                        "endOffset": 1480
+                        "endOffset": 1272
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1020,
+                    "startOffset": 1277,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 2074
+                },
+                "from": {
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1277,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2079,
                     "endColumn": 104,
-                    "endOffset": 1120
+                    "endOffset": 2179
                 },
                 "from": {
-                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-v23/values-v23.xml",
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 1715,
+                        "startOffset": 2079,
                         "endColumn": 104,
-                        "endOffset": 1815
+                        "endOffset": 2179
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2184,
+                    "endColumn": 114,
+                    "endOffset": 2294
+                },
+                "from": {
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 2184,
+                        "endColumn": 114,
+                        "endOffset": 2294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2299,
+                    "endColumn": 106,
+                    "endOffset": 2401
+                },
+                "from": {
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2299,
+                        "endColumn": 106,
+                        "endOffset": 2401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2406,
+                    "endColumn": 112,
+                    "endOffset": 2514
+                },
+                "from": {
+                    "file": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v23/values-v23.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2406,
+                        "endColumn": 112,
+                        "endOffset": 2514
                     }
                 }
             }

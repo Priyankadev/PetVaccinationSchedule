@@ -112,6 +112,10 @@
         "source": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/res/merged/debug/drawable-hdpi/launch_screen.png",
+        "source": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/src/main/res/drawable-hdpi/launch_screen.png"
+    },
+    {
         "merged": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_pressed_holo_light.9.png",
         "source": "/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable-hdpi/abc_list_pressed_holo_light.9.png"
     },

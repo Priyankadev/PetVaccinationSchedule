@@ -3,30 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/home/neo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_5ea8a5d703f1bcab58095872dab194be5875a571.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_faf9aef840bb982153d0043555db2f0c23b68295.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_7357939e617ede7a9cb744a278ba5c52d71102b4.jar" />
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_1dae07bc7c73205977f735380a1abb34c9868fb6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,12 +39,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_7c635bf419ec64ce034938edd7c8f8845dcaf79f.jar" />
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_3e147f9de8816b207d2424f644cb163e7088247a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -72,24 +54,6 @@
         revision="23.0.1"
         sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
         <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_8e5ed1ada1b6ad44a089b9e1b4e5935766e95193.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_803d43cdab5d32fe33d9583d5789d3ed2cbf9d79.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/neo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_63c6a163f3be124c43f63f0dceb7f61340aaffc3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,12 +75,93 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/neo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_5d2eac60898865b8f8d8f9bb24fca883edd09ba2.jar" />
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_e613ec2be71c3cebcf3b541138ea97b7280b1379.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_57e3dbb98c4e068db2a37522eb2b4e753ce10ad1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_9cb972f03639f0a0867c512b319f87b3247066fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_5ea8a5d703f1bcab58095872dab194be5875a571.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_faf9aef840bb982153d0043555db2f0c23b68295.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_74a9f05df35307e56089d5d5bcede231ecc5f34c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_7c635bf419ec64ce034938edd7c8f8845dcaf79f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_803d43cdab5d32fe33d9583d5789d3ed2cbf9d79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_63c6a163f3be124c43f63f0dceb7f61340aaffc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/PetVaccinationSchedule/react-native-splash-screen/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="21e4c7a1bc98da390f543e4cca77a72d1e0eb76f">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/PetVaccinationSchedule-react-native-splash-screen-unspecified_dbcee0541aadd0eed7a8bd988c1bdfad7ab9830a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,21 +183,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_0a6af81987116901590e2ec53cd20e6d0cfdd933.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_de36938fc5f36cd9f020985562f82b4031c46956.jar" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_0ed5dc19783222732db7ff52482aa88ad2aee40d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -171,15 +207,6 @@
         revision="23.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
         <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_2c158eadd05cb07f95c4187b461c7b737dfaf738.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/neo/work/stoic/reactJs/native/PetVaccinationSchedule/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_9cb972f03639f0a0867c512b319f87b3247066fc.jar" />
     </item>
     <item
         is-multidex="false"

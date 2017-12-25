@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
+import SplashScreen from 'react-native-splash-screen'
 import React, { Component } from 'react';
 import {
   Platform,
@@ -20,6 +20,14 @@ const instructions = Platform.select({
 });
 
 export default class App extends Component<{}> {
+
+  componentDidMount() {
+      // do stuff while splash screen is shown
+        // After having done stuff (such as async tasks) hide the splash screen
+        SplashScreen.hide();
+  }
+
+
   render() {
     return (
       <View style={styles.container}>
