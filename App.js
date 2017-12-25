@@ -12,6 +12,10 @@ import {
   View
 } from 'react-native';
 
+
+import Login from './src/screens/Login';
+import Secured from './src/screens/Secured';
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
@@ -27,23 +31,21 @@ export default class App extends Component<{}> {
         SplashScreen.hide();
   }
 
+  state = {
+    isLoggedIn: false
+  }
 
   render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
-      </View>
-    );
-  }
-}
+    if (this.state.isLoggedIn) 
+      return <Secured 
+          onLogoutPress={() => this.setState({isLoggedIn: false})}
+        />;
+    else 
+      return <Login 
+          onLoginPress={() => this.setState({isLoggedIn: true})}
+        />;
+  }//render
+}//App
 
 const styles = StyleSheet.create({
   container: {
