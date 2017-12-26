@@ -10,6 +10,11 @@ import {
 
 export default class Login extends Component {
 
+
+
+    //-------------------------
+    // states
+    //-------------------------
     state = {
         username: '',
         password: '',
@@ -17,6 +22,10 @@ export default class Login extends Component {
         message: ''
     }
 
+
+    //-----------------------------------------------
+    // function to login user
+    //-----------------------------------------------
     _userLogin = () => { 
 
 
@@ -24,12 +33,15 @@ export default class Login extends Component {
 
         this.setState({isLoggingIn: true, message:''});
 
-            var params = {
+        var params = {
             email: this.state.username,
-            password: this.state.password,
-            grant_type: 'password'
+            password: this.state.password
         };
         
+
+        //----------------------------------------
+        // composing form body
+        //----------------------------------------
         var formBody = [];
         for (var property in params) {
           var encodedKey = encodeURIComponent(property);
@@ -40,6 +52,9 @@ export default class Login extends Component {
 
         console.log("-- formBody: " + formBody);
 
+        //----------------------------------------
+        // sending login request to server]
+        // ---------------------------------------
         var proceed = false;
         fetch("https://w-pet.herokuapp.com/api/login", {
             method: "POST", 
@@ -107,11 +122,17 @@ export default class Login extends Component {
                 
                 <View style={{margin:7}} />
 
+                <View style={{flex: 1, flexDirection: 'row', margin: 10}}>
                 <Button 
                     disabled={this.state.isLoggingIn||!this.state.username||!this.state.password}
                     onPress={this._userLogin}
-                    title="Submit"
+                    title="Login"
                 />
+                <Button
+                    title="Register"
+                    onPress={this.props.onRegisterPress}
+                />
+                </View>
                 </ScrollView>
             )//return
     }//render
