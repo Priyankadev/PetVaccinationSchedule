@@ -13,9 +13,9 @@ import {
 } from 'react-native';
 
 
-import Login from './src/screens/Login';
-import Register from './src/screens/Register';
-import Secured from './src/screens/Secured';
+import Login from './screens/Login';
+import Register from './screens/Register';
+import Secured from './screens/Secured';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
