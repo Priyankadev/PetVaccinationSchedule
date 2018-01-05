@@ -8,25 +8,44 @@ import {
     ActivityIndicator
 } from 'react-native';
 
+import { connect } from 'react-redux';
+
 
 //--------------------------------------------------------------------
 //
 //              REGISTER SCREEN
 //
 //--------------------------------------------------------------------
-export default class Register extends Component {
+export default class RegisterScreen extends Component {
 
+
+    static navigationOptions = {
+        title: "PMS Register"
+    };
 
 	//--------------
 	// states
 	//--------------
-    state = {
-    	isRegistering: false,
-        name: '',
-        password: '',
-        email:'',
-        answer:'',
-        message:''
+    
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            isRegistering: false,
+            name: '',
+            password: '',
+            email:'',
+            answer:'',
+            message:''
+        }
+
+        this.clearName = this.clearName.bind(this);
+        this.clearPassword = this.clearPassword.bind(this);
+        this.clearEmail = this.clearEmail.bind(this);
+        this.clearAnswer = this.clearAnswer.bind(this);
+
+
     }
 
 
@@ -80,7 +99,7 @@ export default class Register extends Component {
 		})
 		.then(() => {
 			this.setState({isRegistering:false})
-			if(proceed) this.props.onRegisterDone();
+			//if(proceed) this.props.onRegisterDone();
 		})
 		.done();
     }//UserRegister
@@ -106,6 +125,9 @@ export default class Register extends Component {
 
 
     render() {
+
+        console.log("-- RegisterScreen render(), state: " + JSON.stringify(this.state));
+
         return (
             <ScrollView style={{padding: 20}}>
                 <Text 
@@ -158,11 +180,11 @@ export default class Register extends Component {
                     title="Register"
                   />
                   <Button 
-                    onPress={this.props.onLoginPress}
+                    onPress={ () => this.props.navigation.navigate("Login")}
                     title="Login"
                   />
                 </View>
             </ScrollView>
         )//return
     }//render
-}//Login
+}//RegisterScreen

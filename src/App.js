@@ -1,102 +1,56 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-import SplashScreen from 'react-native-splash-screen'
-import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import React, { Component } from "react";
+import { Text } from "react-native";
+import { Provider, connect } from "react-redux";
+import { StackNavigator, addNavigationHelpers } from "react-navigation";
 
 
-import Login from './screens/Login';
-import Register from './screens/Register';
-import Secured from './screens/Secured';
+import Routes from "./config/routes"
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+import getStore from "./store";
 
+const AppNavigator = StackNavigator(Routes);
 
-//-----------------------------------
-// constants
-//-----------------------------------
-const SCREEN_LOGIN     = 1;
-const SCREEN_REGISTER  = 2;
-const SCREEN_SECURED   = 3;
+const navReducer = (state, action) => {
+    const newState = AppNavigator.router.getStateForAction(action, state);
+    return newState || state;
+};
 
+//connect(state => ({
+  //  nav: state.nav
+//}))
+class AppWithNavigationState extends Component {
+    render() {
 
-//--------------------------------------------------------------------
-//
-//              APP SCREEN
-//
-//--------------------------------------------------------------------
-export default class App extends Component<{}> {
-//------------------------------------------
-//    ComponentDidMount Function
-//------------------------------------------
-  componentDidMount() {
-      // do stuff while splash screen is shown
-        // After having done stuff (such as async tasks) hide the splash screen
-        SplashScreen.hide();
-  }//ComponentDidMount
+    	console.log("-- AppWithNavigationState render() --");
 
+        return (
+            <AppNavigator
+                navigation={addNavigationHelpers({
+                    dispatch: this.props.dispatch,
+                    state: this.props.nav
+                })}
+            />
+        );
+    }
+}
 
-  //-------------------
-  //  states
-  //-------------------
-  state = {
-    isLoggedIn: false,
-    currentScreen: SCREEN_LOGIN,
-  }
+const mapStateToProps = (state, ownProps) => {
+    return {
+        nav: state.nav
+    };
+}
+ 
+var Connected__AppWithNavigationState = connect(mapStateToProps)(AppWithNavigationState);
 
-  render() {
-    if (this.state.currentScreen == SCREEN_SECURED) 
-      return <Secured 
-          onLogoutPress={ () => this.setState({currentScreen: SCREEN_LOGIN}) }
-        />;
+const store = getStore(navReducer);
 
-  if (this.state.currentScreen == SCREEN_LOGIN) 
-      return <Login 
-          onLoginPress ={() => this.setState({currentScreen: SCREEN_SECURED})}
-          onRegisterPress={() => this.setState({currentScreen: SCREEN_REGISTER})}
-        />;
+export default class App extends Component  {
 
-    if (this.state.currentScreen == SCREEN_REGISTER) 
-      return <Register 
-          onLoginPress ={() => this.setState({currentScreen: SCREEN_LOGIN})}
-          onRegisterDone={() => this.setState({currentScreen: SCREEN_SECURED})}
-        />;
-
-
-  }//render
+	render() {
+    	return (
+        	<Provider store={store}>
+            	<Connected__AppWithNavigationState />
+        	</Provider>
+    	);
+	}
 }//App
-
-//---------------------
-//     STYLES
-//---------------------
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
